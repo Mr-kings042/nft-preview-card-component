@@ -1,0 +1,84 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow-x: hidden;
+}
+main{
+    border-radius: 10px;
+   width: 50%;
+   height: 50%;
+   margin-left: 40px;
+    border: 20px solid hsl(216, 50%, 16%);
+    background-color: hsl(216, 50%, 16%);
+}
+.img img{
+    border-radius: 10px;
+    width: 99%;
+    object-fit: contain;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+}
+.Our{
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+    word-spacing: 2px;
+}
+.ETH{
+    display: flex;
+    justify-content: space-between;
+}
+.ETH p > img{
+   padding-right: 7px; 
+   padding-top: 0;
+}
+.ETH .ETH-1{
+    color: hsl(178, 100%, 50%);
+    font-size: 20px;
+    font-weight: 600;
+}
+.ETH .ETH-2{
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+    font-weight: 600;
+}
+.jules{
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    border-top: 1px solid hsl(215, 51%, 70%);
+}
+.jules img{
+    height: 40px;
+    width: 40px;
+    display: inline-block
+}
+.jules p{
+    color:hsl(215, 51%, 70%) ;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: -60px;
+}
+.jules p span{
+    color: hsl(215, 11%, 79%);
+    font-size: 15px;
+    font-weight: 600;
+}
+.attribution {
+     font-size: 11px; text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
